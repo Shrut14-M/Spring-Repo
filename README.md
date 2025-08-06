@@ -55,7 +55,10 @@ Lifecycle hooks that execute during bean initialization and destruction.
 Switching from XML to annotation-based configuration with @Component, @Autowired, and @Configuration.
 
 
+
+
+
 📌 Note
 This project is intentionally built without Spring Boot to help you understand the internal workings of Spring Core and the IoC container in a transparent and beginner-friendly way.
-Edit
+
 
