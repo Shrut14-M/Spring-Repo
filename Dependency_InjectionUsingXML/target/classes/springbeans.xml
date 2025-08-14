@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<bean id="stud" class="com.entity.Student">
+		<property name="S_name" value=" Shiva"></property>
+		<property name="age" value="21 "></property>
+		<property name="department" value="BCA "></property>
+		<property name="Book" ref="book"></property>
+
+	</bean>
+
+
+	<bean id="book" class="com.entity.Book">
+		<property name="book_id" value="101"></property>
+		<property name="book_title" value="Too good to be true"></property>
+		<property name="book_author" value="prajakta koli"></property>
+
+	</bean>
+</beans>
